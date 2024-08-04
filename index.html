@@ -33,6 +33,10 @@
             border: none;
             border-radius: 5px;
         }
+        form {
+            width: 400px;
+            text-align: left;
+        }
         button:hover {
             background-color: #0056b3;
         }
@@ -45,8 +49,7 @@
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" placeholder="Username" required>
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" readonly>
-            <button type="submit">Submit</button>
+            <input type="password" id="password" name="password" placeholder="tap here to generate a password">
         </form>
         <button onclick="copyToClipboard()">Copy Password</button>
     </div>
